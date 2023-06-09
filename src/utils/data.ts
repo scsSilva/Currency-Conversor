@@ -6,7 +6,6 @@ export const data: Currency[] = [
     name: "Libra Esterlina",
     acronym: "GBP",
     country: "Reino Unido",
-    value: 1,
   },
 
   {
@@ -14,7 +13,6 @@ export const data: Currency[] = [
     name: "Dólar Americano",
     acronym: "USD",
     country: "Estados Unidos",
-    value: 1,
   },
 
   {
@@ -22,6 +20,19 @@ export const data: Currency[] = [
     name: "Real Brasileiro",
     acronym: "BRL",
     country: "Brasil",
-    value: 1,
+  },
+
+  {
+    id: 4,
+    name: "Euro",
+    acronym: "EUR",
+    country: "Europa",
+  },
+
+  {
+    id: 5,
+    name: "Dólar Australiano",
+    acronym: "AUD",
+    country: "Austrália",
   },
 ];

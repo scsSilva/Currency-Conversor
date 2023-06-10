@@ -82,6 +82,9 @@ const Home = () => {
                     setFirstValue(+event.target.value);
                     setSecondValue(+event.target.value * conversionRate);
                   }}
+                  onInput={(event: ChangeEvent<HTMLInputElement>) => {
+                    event.target.value = event.target.value.replace(/\D/g, "");
+                  }}
                 />
                 <Select
                   value={mainCurrency}

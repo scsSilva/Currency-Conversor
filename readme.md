@@ -14,7 +14,7 @@
 
 ## Pré-requisitos
 
-Antes de executar o FrontEnd da nossa aplicação, atente-se aos requisitos:
+Antes de executar a aplicação (caso queira criar sua própria versão), atente-se aos requisitos:
 * Ter instalada a versão mais recente do `<Node.js e Yarn>`
 
 <br>
